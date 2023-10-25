@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number To word converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+   <div class="container">
+	<div class="container__item">
+		<form class="form">
+			<input type="number" id="inputNumber" class="form__field" placeholder="Enter a number from 0 to billion" />
+			<button type="button" class="btn btn--primary btn--inside uppercase" onclick="displayValue()">Convert</button>
+		</form>
+	</div>
+	
+	<div class="container__item container__item--bottom">
+        <p id="displayNumberEn">English: </p>
+        <p id="displayNumberAm">Amharic: </p>
+		<p>Inspired by Gemechis Urgessa.</p>
+	</div>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
